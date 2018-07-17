@@ -12,7 +12,7 @@ class App < Sinatra::Base
   end
 
   post '/checkout'
-
+    
     erb :checkout
-  end   
+  end
 end
